@@ -20,7 +20,7 @@ You got many option possible:
 - Manualy, you have to download this git folder as a zip file, and unzip it to *Username\My Documents\Visual Studio 14\Templates\ProjectTemplates\TypeScript\*.
     - or you can just download and copy directories/files you only need and insert them into your project. 
 
-:small_red_triangle:*You will need to restart VS to refresh the cache.*
+:heavy_exclamation_mark: **You will need to restart VS to refresh the cache.**
 
 ##How to use it ?
 You just need to start a new project and select *Installed > Template > TypeScript > Phaser Application with TypeScript* :
