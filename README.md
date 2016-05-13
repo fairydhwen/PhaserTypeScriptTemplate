@@ -23,7 +23,7 @@ You got many option possible:
 :point_right: *You will need to restart VS to refresh the cache.*
 
 ##How to use it ?
-You just need to start a new project and select *Installed > Template > TypeScript > Phaser Application with TypeScript* :
+You just need to start a new project and select *Installed > Templates > TypeScript > Phaser Application with TypeScript* :
 
 ![Phaser Project](https://64934033c9a755801fc92a7328c0b4d365191018.googledrive.com/host/0BxgnrT_mGWcmUGxUdXlfREM1VWc/template/img/NewPhaserProject.png)
 
