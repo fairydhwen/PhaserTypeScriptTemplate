@@ -2,7 +2,7 @@
 
 ##Description
 
-This is an advanced template to start a Phaser.io project with TypeScript (HTML5/JS Framework). 
+This is an advanced template to start a Phaser project with TypeScript (HTML5 Game Framework). 
 
 This template includes 4 classical states : **Boot**, **Preload**, **Menu** and a **Level** with a simple built-in example (image, sprite, atlas, sound, mouse-click and keyboard inputs).
 
