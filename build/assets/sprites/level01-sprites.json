@@ -1,0 +1,36 @@
+{"frames": [
+
+{
+	"filename": "batfly01",
+	"frame": {"x":0,"y":0,"w":88,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":37},
+	"sourceSize": {"w":88,"h":37}
+},
+{
+	"filename": "batfly02",
+	"frame": {"x":88,"y":0,"w":38,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":48},
+	"sourceSize": {"w":38,"h":48}
+},
+{
+	"filename": "background",
+	"frame": {"x":0,"y":48,"w":1024,"h":1025},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1024,"h":1025},
+	"sourceSize": {"w":1024,"h":1025}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "scene01.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1073},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c6b1aa91c18dbf5b97702a658a0b1ace:c0f815af9a8bf426eab96044c307e95b:fc71e11d9b16211a65d96f6b74bb2027$"
+}
+}

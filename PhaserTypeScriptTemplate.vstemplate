@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Phaser Application with TypeScript</Name>
+    <Description>This is an advanced template to start a Phaser project with TypeScript (HTML5 Game Framework).
+
+It includes 4 classical states : Boot, Preload, Menu and a Level with a simple built-in example.</Description>
+    <Icon>Icon.png</Icon>
+    <PreviewImage>PreviewImage.png</PreviewImage>
+    <ProjectType>TypeScript</ProjectType>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>ea1bd1e5-804f-4ec5-b8ff-a86c437bd619</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>TypeScriptPhaserApp</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <Folder Name="build" TargetFolderName="build">
+        <Folder Name="assets" TargetFolderName="assets">
+          <Folder Name="sounds" TargetFolderName="sounds">
+            <ProjectItem ReplaceParameters="false" TargetFileName="click.ogg">click.ogg</ProjectItem>
+          </Folder>
+          <Folder Name="sprites" TargetFolderName="sprites">
+            <ProjectItem ReplaceParameters="false" TargetFileName="level01-sprites.json">level01-sprites.json</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="level01-sprites.png">level01-sprites.png</ProjectItem>
+          </Folder>
+          <Folder Name="ui" TargetFolderName="ui">
+            <ProjectItem ReplaceParameters="false" TargetFileName="gameLogo.png">gameLogo.png</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="titlePage.png">titlePage.png</ProjectItem>
+          </Folder>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="game.js">game.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="game.js.map">game.js.map</ProjectItem>
+        <ProjectItem ReplaceParameters="true" OpenInEditor="true" TargetFileName="index.html">index.html</ProjectItem>
+        <Folder Name="libs" TargetFolderName="libs">
+          <ProjectItem ReplaceParameters="false" TargetFileName="phaser.min.js">phaser.min.js</ProjectItem>
+        </Folder>
+        <Folder Name="styles" TargetFolderName="styles">
+          <ProjectItem ReplaceParameters="true" TargetFileName="default.css">default.css</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="src" TargetFolderName="src">
+        <ProjectItem ReplaceParameters="true" TargetFileName="game.ts">game.ts</ProjectItem>
+        <Folder Name="gameObjects" TargetFolderName="gameObjects">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Player.ts">Player.ts</ProjectItem>
+        </Folder>
+        <Folder Name="gameStates" TargetFolderName="gameStates">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Boot.ts">Boot.ts</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Level01.ts">Level01.ts</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="MainMenu.ts">MainMenu.ts</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Preloader.ts">Preloader.ts</ProjectItem>
+        </Folder>
+        <Folder Name="utils" TargetFolderName="utils" />
+      </Folder>
+      <Folder Name="tsDefinitions" TargetFolderName="tsDefinitions">
+        <ProjectItem ReplaceParameters="false" TargetFileName="p2.d.ts">p2.d.ts</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="phaser.comments.d.ts">phaser.comments.d.ts</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="pixi.comments.d.ts">pixi.comments.d.ts</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="web.config">web.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
