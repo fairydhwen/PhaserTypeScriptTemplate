@@ -72,11 +72,11 @@ Get more information about TypeScript and all the documentation you need on the 
 ##Assets from KENNEY
 
 [http://kenney.nl](http://kenney.nl/)
+
 [License Creative Commons Zero, CC0](http://creativecommons.org/publicdomain/zero/1.0/)
 
-##TOOLS
+##Tools
 
 [Texture Packer](https://www.codeandweb.com/)
 
-Tiled - Copyright © 2008-2016 Thorbjørn Lindeijer
-[WEB Site : www.mapeditor.org](http://www.mapeditor.org/)
+[Tiled](http://www.mapeditor.org/)
