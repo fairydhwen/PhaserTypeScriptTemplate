@@ -17,7 +17,7 @@ You got many option possible:
 - you can auto-install this template directly from the extension available at [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/) :star:
     - from visual studio menu, search for *Phaser TypeScript Template* in the files > new project > online's search box
     - or install from direct link :  [PhaserTypeScriptTemplateExtension.vsix](https://64934033c9a755801fc92a7328c0b4d365191018.googledrive.com/host/0BxgnrT_mGWcmUGxUdXlfREM1VWc/template/PhaserTypeScriptTemplateExtension.vsix) 
-- Manualy, you have to download this git folder as a zip file, and unzip it to *Username\My Documents\Visual Studio 14\Templates\ProjectTemplates\TypeScript\*.
+- Manualy, you have to download this git folder as a zip file, and then _unzip_ it to *Username\My Documents\Visual Studio 14\Templates\ProjectTemplates\TypeScript\*.
     - or you can just download and copy directories/files you only need and insert them into your project. 
 
 :point_right: *You will need to restart VS to refresh the cache.*
