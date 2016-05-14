@@ -7,7 +7,10 @@
             this.anchor.setTo(0.5);
             this.animations.add('fly', [0, 1], 5, true);
             game.add.existing(this);
+            // Physics
             game.physics.enable(this);
+            this.body.collideWorldBounds = true;
+            this.body.setCircle(20);
         }
 
         update() {
