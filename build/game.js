@@ -3,8 +3,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var $safeprojectname$;
-(function ($safeprojectname$) {
+var TypeScriptPhaserApp8;
+(function (TypeScriptPhaserApp8) {
     var Client;
     (function (Client) {
         var GameEngine = (function (_super) {
@@ -20,13 +20,13 @@ var $safeprojectname$;
             return GameEngine;
         }(Phaser.Game));
         Client.GameEngine = GameEngine;
-    })(Client = $safeprojectname$.Client || ($safeprojectname$.Client = {}));
-})($safeprojectname$ || ($safeprojectname$ = {}));
+    })(Client = TypeScriptPhaserApp8.Client || (TypeScriptPhaserApp8.Client = {}));
+})(TypeScriptPhaserApp8 || (TypeScriptPhaserApp8 = {}));
 window.onload = function () {
-    new $safeprojectname$.Client.GameEngine();
+    new TypeScriptPhaserApp8.Client.GameEngine();
 };
-var $safeprojectname$;
-(function ($safeprojectname$) {
+var TypeScriptPhaserApp8;
+(function (TypeScriptPhaserApp8) {
     var Client;
     (function (Client) {
         var Player = (function (_super) {
@@ -61,10 +61,10 @@ var $safeprojectname$;
             return Player;
         }(Phaser.Sprite));
         Client.Player = Player;
-    })(Client = $safeprojectname$.Client || ($safeprojectname$.Client = {}));
-})($safeprojectname$ || ($safeprojectname$ = {}));
-var $safeprojectname$;
-(function ($safeprojectname$) {
+    })(Client = TypeScriptPhaserApp8.Client || (TypeScriptPhaserApp8.Client = {}));
+})(TypeScriptPhaserApp8 || (TypeScriptPhaserApp8 = {}));
+var TypeScriptPhaserApp8;
+(function (TypeScriptPhaserApp8) {
     var Client;
     (function (Client) {
         var Boot = (function (_super) {
@@ -95,10 +95,10 @@ var $safeprojectname$;
             return Boot;
         }(Phaser.State));
         Client.Boot = Boot;
-    })(Client = $safeprojectname$.Client || ($safeprojectname$.Client = {}));
-})($safeprojectname$ || ($safeprojectname$ = {}));
-var $safeprojectname$;
-(function ($safeprojectname$) {
+    })(Client = TypeScriptPhaserApp8.Client || (TypeScriptPhaserApp8.Client = {}));
+})(TypeScriptPhaserApp8 || (TypeScriptPhaserApp8 = {}));
+var TypeScriptPhaserApp8;
+(function (TypeScriptPhaserApp8) {
     var Client;
     (function (Client) {
         var Level01 = (function (_super) {
@@ -115,10 +115,10 @@ var $safeprojectname$;
             return Level01;
         }(Phaser.State));
         Client.Level01 = Level01;
-    })(Client = $safeprojectname$.Client || ($safeprojectname$.Client = {}));
-})($safeprojectname$ || ($safeprojectname$ = {}));
-var $safeprojectname$;
-(function ($safeprojectname$) {
+    })(Client = TypeScriptPhaserApp8.Client || (TypeScriptPhaserApp8.Client = {}));
+})(TypeScriptPhaserApp8 || (TypeScriptPhaserApp8 = {}));
+var TypeScriptPhaserApp8;
+(function (TypeScriptPhaserApp8) {
     var Client;
     (function (Client) {
         var MainMenu = (function (_super) {
@@ -147,10 +147,10 @@ var $safeprojectname$;
             return MainMenu;
         }(Phaser.State));
         Client.MainMenu = MainMenu;
-    })(Client = $safeprojectname$.Client || ($safeprojectname$.Client = {}));
-})($safeprojectname$ || ($safeprojectname$ = {}));
-var $safeprojectname$;
-(function ($safeprojectname$) {
+    })(Client = TypeScriptPhaserApp8.Client || (TypeScriptPhaserApp8.Client = {}));
+})(TypeScriptPhaserApp8 || (TypeScriptPhaserApp8 = {}));
+var TypeScriptPhaserApp8;
+(function (TypeScriptPhaserApp8) {
     var Client;
     (function (Client) {
         var Preloader = (function (_super) {
@@ -176,6 +176,6 @@ var $safeprojectname$;
             return Preloader;
         }(Phaser.State));
         Client.Preloader = Preloader;
-    })(Client = $safeprojectname$.Client || ($safeprojectname$.Client = {}));
-})($safeprojectname$ || ($safeprojectname$ = {}));
+    })(Client = TypeScriptPhaserApp8.Client || (TypeScriptPhaserApp8.Client = {}));
+})(TypeScriptPhaserApp8 || (TypeScriptPhaserApp8 = {}));
 //# sourceMappingURL=game.js.map
