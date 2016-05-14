@@ -29,7 +29,7 @@ You just need to start a new project and select *Installed > Templates > TypeScr
 
 Enter your project's name and chose the folder options. Your project's namespace will be automatically updated. 
 
-To test the project, select the *build\index.html* and press F5. (Of course TypeScript is required : *npm install -g typescript*)
+To test the project, open the *build\index.html* and press F5. (Of course TypeScript is required : *npm install -g typescript*)
 
 :point_right: Remember to set index.html as **Start Page**
 
