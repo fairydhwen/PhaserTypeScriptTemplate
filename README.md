@@ -31,6 +31,8 @@ Enter your project's name and chose the folder options. Your project's namespace
 
 To test the project, select the *build\index.html* and press F5. (Of course TypeScript is required : *npm install -g typescript*)
 
+:point_right: Remember to Set index.html as start Page
+
 ##Project struture
 
 I tried to merge best pratices and sources in order to build this template. So you can develop small to large projects.
