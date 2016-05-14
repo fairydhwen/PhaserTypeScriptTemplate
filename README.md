@@ -14,7 +14,7 @@ This template includes 4 classical states : **Boot**, **Preload**, **Menu** and 
 ##How to install ? (Visual Studio 2015 and Community)
 You got many option possible:
 
-- you can auto-install this template directly from the extension available at [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/)
+- you can auto-install this template directly from the extension available at [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/) :star:
     - from visual studio menu, search for *Phaser TypeScript Template* in the files > new project > online's search box
     - or install from direct link :  [PhaserTypeScriptTemplateExtension.vsix](https://64934033c9a755801fc92a7328c0b4d365191018.googledrive.com/host/0BxgnrT_mGWcmUGxUdXlfREM1VWc/template/PhaserTypeScriptTemplateExtension.vsix) 
 - Manualy, you have to download this git folder as a zip file, and unzip it to *Username\My Documents\Visual Studio 14\Templates\ProjectTemplates\TypeScript\*.
@@ -34,7 +34,7 @@ To test the project, select the *build\index.html* and press F5. (Of course Type
 ##Project struture
 
 I tried to merge best pratices and sources in order to build this template. So you can develop small to large projects.
-You just have to follow the guideline of this struture (but of course you can accord it to your needs):
+You just have to follow the guideline of this struture (but you can adapt it accordingly to your needs as well):
 
 ![Level](https://8be1feb9e98c28e3c8462f7d6d12eda472365af5.googledrive.com/host/0BxgnrT_mGWcmYnJ0TV9UUFRKZlU/Structure.png)
 
