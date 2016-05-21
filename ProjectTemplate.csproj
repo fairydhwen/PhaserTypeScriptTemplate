@@ -41,11 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="src\game.ts" />
-    <TypeScriptCompile Include="src\gameObjects\Player.ts" />
-    <TypeScriptCompile Include="src\gameStates\Boot.ts" />
-    <TypeScriptCompile Include="src\gameStates\Level01.ts" />
-    <TypeScriptCompile Include="src\gameStates\MainMenu.ts" />
-    <TypeScriptCompile Include="src\gameStates\Preloader.ts" />
+    <TypeScriptCompile Include="src\gameObjects\player.ts" />
+    <TypeScriptCompile Include="src\gameStates\boot.ts" />
+    <TypeScriptCompile Include="src\gameStates\level01.ts" />
+    <TypeScriptCompile Include="src\gameStates\mainMenu.ts" />
+    <TypeScriptCompile Include="src\gameStates\preloader.ts" />
     <TypeScriptCompile Include="tsDefinitions\p2.d.ts" />
     <TypeScriptCompile Include="tsDefinitions\phaser.comments.d.ts" />
     <TypeScriptCompile Include="tsDefinitions\pixi.comments.d.ts" />
