@@ -2,7 +2,7 @@
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <Name>Phaser Application with TypeScript</Name>
-    <Description>This is an advanced template to start a Phaser project with TypeScript (HTML5 Game Framework).
+    <Description>An advanced TypeScript template to fast-start your Phaser games (HTML5 Game Framework).
 
 It includes 4 classical states : Boot, Preload, Menu and a Level with a simple built-in example.</Description>
     <Icon>Icon.png</Icon>
@@ -43,13 +43,13 @@ It includes 4 classical states : Boot, Preload, Menu and a Level with a simple b
       <Folder Name="src" TargetFolderName="src">
         <ProjectItem ReplaceParameters="true" TargetFileName="game.ts">game.ts</ProjectItem>
         <Folder Name="gameObjects" TargetFolderName="gameObjects">
-          <ProjectItem ReplaceParameters="true" TargetFileName="Player.ts">Player.ts</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="player.ts">player.ts</ProjectItem>
         </Folder>
         <Folder Name="gameStates" TargetFolderName="gameStates">
-          <ProjectItem ReplaceParameters="true" TargetFileName="Boot.ts">Boot.ts</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="Level01.ts">Level01.ts</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="MainMenu.ts">MainMenu.ts</ProjectItem>
-          <ProjectItem ReplaceParameters="true" TargetFileName="Preloader.ts">Preloader.ts</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="boot.ts">boot.ts</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="level01.ts">level01.ts</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="mainMenu.ts">mainMenu.ts</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="preloader.ts">preloader.ts</ProjectItem>
         </Folder>
         <Folder Name="utils" TargetFolderName="utils" />
       </Folder>

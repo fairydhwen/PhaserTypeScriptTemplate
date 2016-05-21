@@ -15,6 +15,8 @@
             this.add.tween(this.background).to({ alpha: 1 }, 500, Phaser.Easing.Linear.None, true);
             this.add.tween(this.logo).to({ y: 220 }, 2000, Phaser.Easing.Elastic.Out, true, 500);
 
+            this.game.debug.text("Click the logo to start the game", 0, this.world.height, "red");
+
             this.input.onDown.addOnce(this.fadeOut, this);
         }
 
